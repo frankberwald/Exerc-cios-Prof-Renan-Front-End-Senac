@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Exercício 2</title>
+</head>
+<body>
+    <div class="container">
+    <h1><i class="fa-solid fa-right-to-bracket"></i> Cadastre e concorra!</h1>
+    <p>Preencha o formulário e concorra a uma viagem dos sonhos para você mais um acompanhante para o local de sua escolha!</p>
+    <form action="novoCadastro" class="form-group">
+
+        <div class="form-item">
+            <label for="nomeCompleto">Nome</label>
+            <input type="text" name="nomeCompleto" id="nomeCompleto" placeholder="Digite seu nome">
+        </div>
+
+        <div class="form-item">
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email" placeholder="Digite seu email">
+        </div>
+
+        <div class="form-item">
+            <label for="dtNasc">Data de Nascimento</label>
+            <input type="date" name="dtNasc" id="dataNascimento" placeholder="mm/dd/yyyy">
+        </div>
+
+        <div class="form-item">
+            <label for="CPF">CPF</label>
+            <input type="number" name="cpf" id="cpf" placeholder="Digite seu CPF">
+        </div>
+
+        <div class="form-item-grid">
+            <div>
+                <label for="CEP">CEP</label>
+                <input type="number" name="cep" id="cep" placeholder="Digite seu CEP">
+            </div>
+
+            <div>
+                <label for="Estado">Estado</label>
+                <input type="text" name="estado" id="estado" placeholder="Digite seu estado">
+            </div>
+
+            <div>
+                <label for="Rua">Cidade</label>
+                <input type="text" name="cidade" id="cidade" placeholder="Digite sua rua">
+            </div>
+
+            <div>
+                <label for="Rua">Bairro</label>
+                <input type="text" name="bairro" id="bairro" placeholder="Digite sua rua">
+            </div>
+
+            <div>
+                <label for="Rua">Rua</label>
+                <input type="text" name="rua" id="rua" placeholder="Digite sua rua">
+            </div>
+
+            <div>
+                <label for="nomeCompleto">Complemento</label>
+                <input type="text" name="nomeComplet" id="nomeCompleto" placeholder="Digite o complemento (ex: Apto 102)">
+            </div>
+        </div>
+        
+        <button class="btn" type="submit">CADASTRAR</button>
+    </form>
+    </div>
+</body>
+</html>
